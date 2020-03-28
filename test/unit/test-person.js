@@ -4,6 +4,7 @@ test-utilities.js
 */
 
 /* global describe, it */
+import moment from 'moment'
 import main from '../../src/main.js'
 let Person = main.person
 

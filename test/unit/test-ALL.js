@@ -11,5 +11,5 @@ es6Promise.polyfill()
 
 describe('All basic-nodejs-package unit tests', function () {
   require('./test-utilities.js')
-  // require('./test-person.js')
+  require('./test-person.js')
 })

@@ -32,7 +32,7 @@ module.exports = [
     devServer: {
       // this contentBase serves mocha & chai from node_modules in parent directory
       // comment it out to serve from this package's node_modules
-      contentBase: path.join(__dirname, '..'),
+      // contentBase: path.join(__dirname, '..'),
       port: 8080
     },
     module: {

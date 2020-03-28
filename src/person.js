@@ -12,7 +12,7 @@ let personDataValidator = ajv.compile(schema.schemaDefs.app.person)
 
 class Person {
   constructor (personData) {
-    if (!personDataValidator(persobData)) {
+    if (!personDataValidator(personData)) {
       throw 'Validation Error: invalid person data'
     }
     this.firstName = personData.firstName

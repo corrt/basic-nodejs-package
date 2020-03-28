@@ -46,7 +46,7 @@ let schemaDefs = {
         dob: {
           title: 'DOB',
           description: 'Date of Birth',
-          type: {$ref: schemaIdPrefix + '/general/isoDateString.json'}
+          $ref: schemaIdPrefix + '/general/isoDateString.json'
         },
       },
       required: ['firstName', 'lastName', 'dob']
