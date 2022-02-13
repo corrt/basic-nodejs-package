@@ -16,7 +16,7 @@
     "test:int": "mocha ./test/int/inttest-ALL.js --require @babel/polyfill --require @babel/register"
   },
   "dependencies": {
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.3",
     "lodash": "^4.17.10",
     "moment": "^2.24.0"
   },
